@@ -19,63 +19,66 @@
 		<div id="app">
 			<v-app>
 				<template>
-					<v-layout row wrap align-center justify-center fill-height>
-						<center>
-							<v-card class="mx-auto" max-width="344">
-								<v-card-text>
-									<v-avatar color="grey lighten-2" size="128">
-										<!-- 自定义头像 Custom Avatar -->
-										<img src="./img/avatar.jpg" />
-									</v-avatar>
-									<div class="pitch">
-										<p class="display-1 text--primary">
-											Your Name
-										</p>
-									</div>
-									<div class="text--primary">
-										My name is Van, I'm an artist,<br />
-										I'm a performance artist.<br />
-										I'm hired to people to fulfill their fantasies,<br />
-										their deep dark fantasies.
-									</div>
-									<!-- 图标修改 Modification of icons -->
-									<div class="pitch">
-										<a href="#" title="Your GitHub Name" id="button" rel="external nofollow">
-											<v-btn icon>
-												<v-icon>mdi-github</v-icon>
-											</v-btn>
-										</a>
-										<a href="#" title="Your Mail" id="button" rel="external nofollow">
-											<v-btn icon>
-												<v-icon>mdi-email</v-icon>
-											</v-btn>
-										</a>
-										<a href="#" title="Your Twitter" id="button" rel="external nofollow">
-											<v-btn icon>
-												<v-icon>mdi-twitter</v-icon>
-											</v-btn>
-										</a>
-										<a href="#" title="Your QQ" id="button" rel="external nofollow">
-											<v-btn icon>
-												<v-icon>mdi-qqchat</v-icon>
-											</v-btn>
-										</a>
-									</div>
-								</v-card-text>
-								<!-- 页尾 Footer -->
-								<v-footer padless>
-									<v-col class="text-center" cols="12">
-										{{ new Date().getFullYear() }} —
-										<strong>
-											<a href="/" id="button">Your Name</a>
-										</strong>
-										<br />
-										Designed by <a href="http://i.rinsuki.cc" target="_blank" id="button" rel="external">Rinsuki</a>
-									</v-col>
-								</v-footer>
-							</v-card>
-					</v-layout>
-					</center>
+					<!-- 自定义背景图片 Custom background image (Optional) -->
+					<v-img src="#">
+						<v-layout row wrap align-center justify-center fill-height>
+							<center>
+								<v-card class="mx-auto" max-width="344">
+									<v-card-text>
+										<v-avatar color="grey lighten-2" size="128">
+											<!-- 自定义头像 Custom Avatar -->
+											<img src="./img/avatar.jpg" />
+										</v-avatar>
+										<div class="pitch">
+											<p class="display-1 text--primary">
+												Your Name
+											</p>
+										</div>
+										<div class="text--primary">
+											My name is Van, I'm an artist,<br />
+											I'm a performance artist.<br />
+											I'm hired to people to fulfill their fantasies,<br />
+											their deep dark fantasies.
+										</div>
+										<!-- 图标修改 Modification of icons -->
+										<div class="pitch">
+											<a href="#" title="Your GitHub Name" id="button" rel="external nofollow">
+												<v-btn icon>
+													<v-icon>mdi-github</v-icon>
+												</v-btn>
+											</a>
+											<a href="#" title="Your Mail" id="button" rel="external nofollow">
+												<v-btn icon>
+													<v-icon>mdi-email</v-icon>
+												</v-btn>
+											</a>
+											<a href="#" title="Your Twitter" id="button" rel="external nofollow">
+												<v-btn icon>
+													<v-icon>mdi-twitter</v-icon>
+												</v-btn>
+											</a>
+											<a href="#" title="Your QQ" id="button" rel="external nofollow">
+												<v-btn icon>
+													<v-icon>mdi-qqchat</v-icon>
+												</v-btn>
+											</a>
+										</div>
+									</v-card-text>
+									<!-- 页尾 Footer -->
+									<v-footer padless>
+										<v-col class="text-center" cols="12">
+											{{ new Date().getFullYear() }} —
+											<strong>
+												<a href="/" id="button">Your Name</a>
+											</strong>
+											<br />
+											Designed by <a href="http://i.rinsuki.cc" target="_blank" id="button" rel="external">Rinsuki</a>
+										</v-col>
+									</v-footer>
+								</v-card>
+						</v-layout>
+						</center>
+					</v-img>
 				</template>
 			</v-app>
 		</div>
