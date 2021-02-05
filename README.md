@@ -3,4 +3,4 @@
 
 A simple personal homepage based on Vuetify
 
-demo: http://i.rinsuki.cc
+demo: <a href="https://rinsuki.cc" target="_blank">https://rinsuki.cc</a>
